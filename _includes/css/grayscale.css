@@ -382,3 +382,7 @@ span.yellow {
   width: 200px;
   heigh: 200px;
 }
+.info-img {
+  max-height: 200px;
+  max-width:400px;
+}

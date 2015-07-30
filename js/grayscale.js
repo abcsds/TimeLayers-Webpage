@@ -44,7 +44,7 @@ function init() {
         // The latitude and longitude to center the map (always required)
         // center: {lat: 19.4310, lng: -99.1296},
         center: {lat: 41.02543462610611, lng: 28.974273204803467},
-        
+
         // Disables the default Google Maps UI components
         disableDefaultUI: false,
         scrollwheel: false,
@@ -54,5 +54,34 @@ function init() {
     map = new google.maps.Map(document.getElementById('map'),mapOptions);
 
     // Load GeoJSON.
-    map.data.loadGeoJson('/js/test.json');
+    // map.data.loadGeoJson('/js/test.json');
+
+    // Marker with Galata
+
+    var contentString = '<div id="content">'+
+     '<div id="siteNotice">'+
+     '</div>'+
+     '<h1 id="firstHeading" class="firstHeading">Galata Tower</h1>'+
+     '<div id="bodyContent">'+
+     '<img class="info-img" href="/img/Galata.jpg"><br>'+
+     '<p>South elevation</p>'+
+     '<p>Years: 1920s <br>Tags: Genovese, Ottoman, Turkish Republic</p>'+
+     '<p>Attribution: Istambul Hatirasi<a href="azizistanbul.com">'+
+     'https://azizistanbul.com</a> '+
+     '(last visited July, 2015).</p>'+
+     '</div>'+
+     '</div>';
+
+    var myLatlng = new google.maps.LatLng(41.02560460051535, 28.97419810295105)
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Galata Tower'
+    });
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map,marker);
+    });
 }
