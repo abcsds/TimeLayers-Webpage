@@ -3,9 +3,24 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact</h2>
-                <p>Dolor reprehenderit repellendus, optio labore odio at tempore debitis nisi. Quasi debitis tenetur eaque molestias non porro odio sapiente.</p>
-                <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </div>
+            {% for author in site.authors%}
+              <div class="col-lg-4">
+                <div class="author">
+                  <img src="/img/{{ author.link }}.jpeg" alt="">
+                  <p class="auth-name">
+                    {{ author.name }}
+                    <br>
+                    <small>{{ author.title }}</small>
+                  </p>
+                  <a href="mailto:{{ author.email }}">
+                    <i class="fa fa-envelope fa-2x"></i></a>
+                </div>
                 </p>
+              </div>
+            {% endfor %}
+
+            <div class="col-lg-8 col-lg-offset-2">
                 <ul class="list-inline banner-social-buttons">
                     {% for network in site.social %}
                     <li>
