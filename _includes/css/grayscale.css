@@ -379,13 +379,15 @@ span.yellow {
 }
 .author > img {
   border-radius: 100%;
-  width: 200px;
-  heigh: 200px;
+  width: 150px;
+  heigh: 150px;
 }
 #info-content {
   color: black;
+  text-align: center;
+  font-size: 16;
 }
 .info-img {
-  max-height: 200px;
+  max-height: 400px;
   max-width:400px;
 }

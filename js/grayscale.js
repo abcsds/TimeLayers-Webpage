@@ -64,11 +64,13 @@ function init() {
      '<h1 id="firstHeading" class="firstHeading">Galata Tower</h1>'+
      '<div id="bodyContent">'+
      '<br>'+
-     '<p>South elevation<br>'+
-     'Years: 1920s <br>Tags: Genovese, Ottoman, Turkish Republic<br>'+
-     'Attribution: Istambul Hatirasi<a href="azizistanbul.com"><br>'+
+     '<p class="text-center"><img class="info-img" src="/img/Galata.jpg" alt="Galata"><br>'+
+     '<small>South elevation</small><br>'+
+     'Years: 1920s <br>'+
+     'Galata Tower was the tallest building in Istanbul at 219½ feet (66.9 m) when it was built in 1348.<br>'+
+     '<smal>Attribution:</small> Istambul Hatirasi<a href="azizistanbul.com"><br>'+
      'https://azizistanbul.com</a> <br>'+
-     '(last visited July, 2015).</p>'+
+     '<small>(last visited July, 2015)</small>.</p>'+
      '</div>'+
      '</div>';
 
