@@ -39,11 +39,11 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 10,
+        zoom: 13,
 
         // The latitude and longitude to center the map (always required)
         // center: {lat: 19.4310, lng: -99.1296},
-        center: {lat: 41.0053215, lng: 29.0121795},
+        center: {lat: 28.97418737411499, lng: 41.0256228120332},
 
         // Disables the default Google Maps UI components
         disableDefaultUI: false,
