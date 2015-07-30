@@ -377,3 +377,6 @@ span.yellow {
   height: 2em;
   width: 2em;
 }
+.author > img {
+  border-radius: 100%;
+}
