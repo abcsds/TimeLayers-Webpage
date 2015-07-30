@@ -1,8 +1,22 @@
 # Site settings
 title: TimeLayers
-email: abcsds@gmail.com
 url: timelayers.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+authors:
+  - name: Aylin B. Yildirim Tschoepe
+    title: Chief Academic Officer, Doctor of Design
+    email: aylin.yt@gmail.com
+    link: Aylin
+  - name: Luis Alberto Barradas Chacón
+    title: Chief Information Officer
+    email: abcsds@gmail.com
+    link: Alberto
+  - name: Dominic Tschoepe
+    title: Chief Creative Officer, Architect, Photographer
+    email: dominic.tschoepe@gmail.com
+    link: Dominic
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
