@@ -54,5 +54,5 @@ function init() {
     map = new google.maps.Map(document.getElementById('map'),mapOptions);
 
     // Load GeoJSON.
-    map.data.loadGeoJson('municipios.json');
+    map.data.loadGeoJson('/js/test.json');
 }

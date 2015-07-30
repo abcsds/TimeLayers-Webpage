@@ -66,6 +66,10 @@
           19.4518633479231
         ]
       }
-    }
+    },
+    {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.973122537136078,           41.02653540497665         ]       }     },     {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.97418737411499,           41.0256228120332         ]       }     },
+    {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.974613845348358,           41.025863608295325         ]       }     },     {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.97418737411499,           41.02561674152781         ]       }     },
+    {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.973122537136078,           41.02653540497665         ]       }     },     {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.97418737411499,           41.0256228120332         ]       }     },
+    {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.973935246467594,           41.0252808393578         ]       }     },     {       "type": "Feature",       "properties": {},       "geometry": {         "type": "Point",         "coordinates": [           28.97419810295105,           41.02560460051535         ]       }     }
   ]
 }
