@@ -58,16 +58,16 @@ function init() {
 
     // Marker with Galata
 
-    var contentString = '<div id="content">'+
+    var contentString = '<div id="info-content">'+
      '<div id="siteNotice">'+
      '</div>'+
      '<h1 id="firstHeading" class="firstHeading">Galata Tower</h1>'+
      '<div id="bodyContent">'+
-     '<img class="info-img" href="/img/Galata.jpg"><br>'+
-     '<p>South elevation</p>'+
-     '<p>Years: 1920s <br>Tags: Genovese, Ottoman, Turkish Republic</p>'+
-     '<p>Attribution: Istambul Hatirasi<a href="azizistanbul.com">'+
-     'https://azizistanbul.com</a> '+
+     '<br>'+
+     '<p>South elevation<br>'+
+     'Years: 1920s <br>Tags: Genovese, Ottoman, Turkish Republic<br>'+
+     'Attribution: Istambul Hatirasi<a href="azizistanbul.com"><br>'+
+     'https://azizistanbul.com</a> <br>'+
      '(last visited July, 2015).</p>'+
      '</div>'+
      '</div>';
